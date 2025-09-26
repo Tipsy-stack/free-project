@@ -1,4 +1,12 @@
-import card from "../images/card.svg";
+import baby from "../images/baby.svg";
+import man from "../images/man.svg";
+import empty from "../images/empty.svg";
+import tipsy from "../images/tipsy.svg";
+import dinaka from "../images/dinaka.svg";
+import shalli from "../images/shalli.svg";
+import dom from "../images/dom.svg";
+import pearl from "../images/pearl.svg";
+import kush from "../images/kush.svg";
 
 function Testimonial() {
   return (
@@ -20,12 +28,243 @@ function Testimonial() {
         </div>
       </div>
 
-      <div className="flex flex-row gap-[10px] w-[1140px] h-[988px] items-center justify-center mx-auto">
-        <img
-          src={card}
-          alt="card"
-          className="w-full h-full object-cover"
-        />
+      <div className="relative flex gap-[10px] w-[1140px] h-[988px] items-center justify-center mx-auto">
+        <div className="flex flex-col w-[358.67px] h-[988px] gap-[32px]">
+          <div className="flex flex-col w-[358.67px] h-[260px] rounded-3xl border-[1px] border-[#E5E7EB] p-[32px] gap-[24px]">
+            <div className="w-[294.67px] h-[52px] flex gap-[12px]">
+              <div className="w-[52px] h-[52px] rounded-[104px]">
+                <img src={baby} alt="baby" className="w-[52px] h-[52px]" />
+              </div>
+              <div className="flex flex-col w-[230.67px] h-[52px]">
+                <h2 className="w-full h-[28px] font-jakarta font-semibold text-[18px] leading-[28px] text-[#030712]">
+                  Emmanuel Akatsuki
+                </h2>
+                <p className="w-full h-[24px] text-md font-medium font-jakarta leading-[24px] text-[#6B7280]">
+                  Product Manager, Circle
+                </p>
+              </div>
+            </div>
+            <div className="w-[294.67px] h-[120px]">
+              <p className="text-md font-jakarta font-medium text-[16px] leading-[24px] text-[#000000]">
+                “We use polio on a daily basis for several internal processes,
+                and i cannot rave enough about them. Incredible flexibility and
+                features combined with super intuitive UI.”
+              </p>
+            </div>
+          </div>
+
+          <div className="flex flex-col w-[358.67px] h-[404px] rounded-3xl border-[1px] p-[32px] gap-[24px] border-[#E5E7EB]">
+            <div className="flex gap-[12px] w-[294.67px] h-[52px]">
+              <div className="w-[52px] h-[52px] rounded-[104px]">
+                <img src={man} alt="man" className="w-[52px] h-[52px]" />
+              </div>
+
+              <div className="flex flex-col w-[230.67px] h-[52px]">
+                <h2 className="w-full h-[28px] text-lg font-semibold font-jakarta leading-[28px] text-[#030712]">
+                  Naya Ikenkwe
+                </h2>
+                <p className="w-full h-[24px] text-md font-medium font-jakarta leading-[24px] text-[#6B7280]">
+                  Product Manager, Princeps
+                </p>
+              </div>
+            </div>
+
+            <div className="w-[294.67px] h-[264px] text-md font-medium font-jakarta leaading-[24px]">
+              <p>
+                “Lets be honest, most CRMs suck. Overcomplicated, expensive, and
+                you have to bend to their will... not the other way around. I am
+                a huge fan of Polio- their product is a rock- solid, customer
+                support is AAA , and it is very flexible and simple, their
+                product is rock-solid, customer support is AAA, and it is very
+                much affordable to use and also very much flexible and super
+                simple. Great job Polio.
+              </p>
+            </div>
+          </div>
+
+          <div className="flex flex-col w-[358.67px] h-[260px] rounded-3xl border-[1px] border-[#E5E7EB] p-[32px] gap-[24px]">
+            <div className="w-[294.67px] h-[52px] flex gap-[12px]">
+              <div className="w-[52px] h-[52px] rounded-[104px]">
+                <img src={empty} alt="baby" className="w-[52px] h-[52px]" />
+              </div>
+              <div className="flex flex-col w-[230.67px] h-[52px]">
+                <h2 className="w-full h-[28px] font-jakarta font-semibold text-[18px] leading-[28px] text-[#030712]">
+                  Nabeel Olaoye
+                </h2>
+                <p className="w-full h-[24px] text-md font-medium font-jakarta leading-[24px] text-[#6B7280]">
+                  Princeps Frontend Dev
+                </p>
+              </div>
+            </div>
+            <div className="w-[294.67px] h-[120px]">
+              <p className="text-md font-jakarta font-medium text-[16px] leading-[24px] text-[#000000]">
+                “We use polio on a daily basis for several internal processes,
+                and i cannot rave enough about them. Incredible flexibility and
+                features combined with super intuitive UI.”
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="top-0 flex flex-col w-[358.67px] h-[988px] gap-8">
+          <div className="flex flex-col w-[358.67px] h-[212px] rounded-3xl border-[1px] p-8 gap-6 border-[#E5E7EB]">
+            <div className="w-[294.67px] h-[52px] flex gap-[12px]">
+              <div className="w-[52px] h-[52px] rounded-[104px]">
+                <img src={tipsy} alt="tipsy" className="w-[52px] h-[52px]" />
+              </div>
+              <div className="flex flex-col w-[230.67px] h-[52px]">
+                <h2 className="w-full h-[28px] font-jakarta font-semibold text-[18px] leading-[28px] text-[#030712]">
+                  Olatipe Osatuyi
+                </h2>
+                <p className="w-full h-[24px] text-md font-medium font-jakarta leading-[24px] text-[#6B7280]">
+                  Princeps Frontend Dev
+                </p>
+              </div>
+            </div>
+            <div className="w-[294.67px] h-[72px]">
+              <p className="text-md font-jakarta font-medium text-[16px] leading-[24px] text-[#000000]">
+                “As an early stage startup I’m really loving using Polio- great
+                balance of flexibility and prescriptiveness”
+              </p>
+            </div>
+          </div>
+
+          <div className="flex flex-col w-[358.67px] h-[284px] rounded-3xl border-1 p-8 gap-6 border-[#E5E7EB]">
+            <div className="flex w-[294.67px] h-[52px] gap-3">
+              <div className="w-[52px] h-[52px] rounded-[104px]">
+                <img
+                  src={dinaka}
+                  alt="dinaka"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="flex flex-col w-[230.67px] h-[52px]">
+                <h2 className="w-full h-[28px] font-jakarta font-semibold text-[18px] leading-[28px] text-[#030712]">
+                  Dinaka
+                </h2>
+                <p className="w-full h-[24px] text-md font-medium font-jakarta leading-[24px] text-[#6B7280]">
+                  Princeps Frontend Dev
+                </p>
+              </div>
+            </div>
+
+            <div className="w-[294.67px] h-[144px]">
+              <p className="text-md font-jakarta font-medium text-[16px] leading-[24px] text-[#000000]">
+                “I’ve been using Polio to track applicants, manage my deal
+                pipeline and manage the associate notes/ tasks. The use- cases
+                are unlimited; it truly feels like the notion of every fuckin
+                CRM
+              </p>
+            </div>
+          </div>
+
+          <div className="flex flex-col w-[358.67px] h-[260px] rounded-3xl border-1 p-8 gap-6 border-[#E5E7EB]">
+            <div className="flex w-[294.67px] h-[52px] gap-3">
+              <div className="w-[52px] h-[52px] rounded-[104px]">
+                <img
+                  src={shalli}
+                  alt="shalli"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="flex flex-col w-[230.67px] h-[52px]">
+                <h2 className="w-full h-[28px] font-jakarta font-semibold text-[18px] leading-[28px] text-[#030712]">
+                  Shalli Not Poppi
+                </h2>
+                <p className="w-full h-[24px] text-md font-medium font-jakarta leading-[24px] text-[#6B7280]">
+                  UI/UX Designer
+                </p>
+              </div>
+            </div>
+
+            <div className="w-[294.67px] h-[120px]">
+              <p className="text-md font-jakarta font-medium text-[16px] leading-[24px] text-[#000000]">
+                “We use polio on a daily basis for several internal processes,
+                and i cannot rave enough about them. Incredible flexibility and
+                features combined with super intuitive UI.”
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex flex-col w-[358.67px] h-[988px] gap-[32px]">
+          <div className="flex flex-col w-[358.67px] h-[255px] rounded-3xl border-[1px] border-[#E5E7EB] p-[32px] gap-[24px]">
+            <div className="w-[294.67px] h-[52px] flex gap-[12px]">
+              <div className="w-[52px] h-[52px] rounded-[104px]">
+                <img src={dom} alt="dom" className="w-[52px] h-[52px]" />
+              </div>
+              <div className="flex flex-col w-[230.67px] h-[52px]">
+                <h2 className="w-full h-[28px] font-jakarta font-semibold text-[18px] leading-[28px] text-[#030712]">
+                  Dominic Atsu
+                </h2>
+                <p className="w-full h-[24px] text-md font-medium font-jakarta leading-[24px] text-[#6B7280]">
+                  Fullstack Dev
+                </p>
+              </div>
+            </div>
+            <div className="w-[294.67px] h-[120px]">
+              <p className="text-md font-jakarta font-medium text-[16px] leading-[24px] text-[#000000]">
+                “We use polio on a daily basis for several internal processes,
+                and i cannot rave enough about them. Incredible flexibility and
+                features combined with super intuitive UI.”
+              </p>
+            </div>
+          </div>
+
+          <div className="flex flex-col w-[358.67px] h-[260px] rounded-3xl border-[1px] p-[32px] gap-[24px] border-[#E5E7EB]">
+            <div className="flex gap-[12px] w-[294.67px] h-[52px]">
+              <div className="w-[52px] h-[52px] rounded-[104px]">
+                <img src={pearl} alt="pearl" className="w-[52px] h-[52px]" />
+              </div>
+
+              <div className="flex flex-col w-[230.67px] h-[52px]">
+                <h2 className="w-full h-[28px] text-lg font-semibold font-jakarta leading-[28px] text-[#030712]">
+                  Pearl Osas
+                </h2>
+                <p className="w-full h-[24px] text-md font-medium font-jakarta leading-[24px] text-[#6B7280]">
+                  Mobile Dev
+                </p>
+              </div>
+            </div>
+
+            <div className="w-[294.67px] h-[120px] text-md font-medium font-jakarta leaading-[24px]">
+              <p>
+                “We use polio on a daily basis for several internal processes,
+                and i cannot rave enough about them. Incredible flexibility and
+                features combined with super intuitive UI.”
+              </p>
+            </div>
+          </div>
+
+          <div className="flex flex-col w-[358.67px] h-[404px] rounded-3xl border-[1px] border-[#E5E7EB] p-[32px] gap-[24px]">
+            <div className="w-[294.67px] h-[52px] flex gap-[12px]">
+              <div className="w-[52px] h-[52px] rounded-[104px]">
+                <img src={kush} alt="kush" className="w-[52px] h-[52px]" />
+              </div>
+              <div className="flex flex-col w-[230.67px] h-[52px]">
+                <h2 className="w-full h-[28px] font-jakarta font-semibold text-[18px] leading-[28px] text-[#030712]">
+                  Kush Lord
+                </h2>
+                <p className="w-full h-[24px] text-md font-medium font-jakarta leading-[24px] text-[#6B7280]">
+                  Princeps Backend Dev
+                </p>
+              </div>
+            </div>
+            <div className="w-[294.67px] h-[264px]">
+              <p className="text-md font-jakarta font-medium text-[16px] leading-[24px] text-[#000000]">
+                “Lets be honest, most CRMs suck. Overcomplicated, expensive, and
+                you have to bend to their will... not the other way around. I am
+                a huge fan of Polio- their product is a rock- solid, customer
+                support is AAA , and it is very flexible and simple, their
+                product is rock-solid, customer support is AAA, and it is very
+                much affordable to use and also very much flexible and super
+                simple. Great job Polio.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-gradient-to-b from-gray-50/50 to-gray-50/100 absolute bottom-0 w-[1140px] h-[295px] z-20"></div>
       </div>
     </section>
   );
